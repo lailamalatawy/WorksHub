@@ -1,0 +1,75 @@
+{{#if errors}}
+      {{#each errors}}
+        <div class="alert alert-danger">{{msg}}</div>
+{{/each}}
+{{/if}}
+
+<title> WorksHub | Portfolio </title>
+
+<style>
+  .bottom-three {
+     margin-bottom: 3 cm;
+  }
+</style>
+
+
+<body>
+	<form  enctype="multipart/form-data" method="post" action="/users/portfolio">
+
+
+	  <div class="container">
+      <h2 class="page-header"> Create Portfolio </h2>
+
+       <!--    <img id="default_avatar" src="/public/default_avatar" alt="your image" /> -->
+          <!-- <input type='file' /> -->
+          
+
+        <div class="form-group">
+          <label>Name Displayed</label>
+          <input type="text" class="form-control" name="name" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+          <label>Short Biography</label>
+          <input type="text" class="form-control" name="bio" placeholder="Bio">
+            <p class="bottom-three"> </p>
+            </br>
+        </div>
+<!--          <div class="form-group">
+          <label>Upload Picture <small><i>(optional)</i></small></label>
+          <p> <input type="file", name="profilepic" > </p>
+        </div> -->
+  </div>  
+
+
+  <div class="container">
+  <p class="bottom-three"> </p>
+    <h2 class="page-header"> Upload Work </h2>
+        <div class="form-group">
+          <label>Title</label>
+          <input type="text" class="form-control" name="title" placeholder="Title">
+        </div>
+          <div class="form-group">
+          <label>Description</label>
+          <input type="text" class="form-control" name="description" placeholder="Description">
+        </div>
+        <div class="form-group">
+          <label>Link <small><i>(optional)</i></small></label>
+          <input type="text" class="form-control" name="link" placeholder="URL">
+        </div>
+        <div class="form-group">
+          <label> Upload Screenshots/Repos</label>
+          <p> <input type="file", name="img" > </p>
+          <p> <input type="file", name="file" > </p>
+        </div>
+        <input type="hidden" class="register-input" placeholder="Password" name="invisible1">
+        <button type="submit" class="btn btn-default", name = "submit">Create </button>
+
+  </div> 
+
+	</form>
+</body>        
+
+
+
+
+

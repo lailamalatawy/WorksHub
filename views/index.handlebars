@@ -1,0 +1,14 @@
+<style>
+  .bottom-three {
+     margin-bottom: 1 cm;
+  }
+</style>
+
+<title> WorksHub | Home </title>
+<p class="bottom-three"> </p>
+
+{{#if user}}
+    <h2 class="page-header"> Oh hi, {{{user.username}}}! Please, enjoy.</h2>
+{{else}}
+    <h2 class="page-header"> Hello there, stranger! Welcome to WorksHub.</h2>
+{{/if}}

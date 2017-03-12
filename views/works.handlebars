@@ -1,0 +1,35 @@
+<style>
+  .bottom-three {
+     margin-bottom: 1 cm;
+  }
+</style>
+
+<title> WorksHub | Works </title>
+<p class="bottom-three"> </p>
+<h2 class="page-header"> All Works Preview </h2>
+<p class="bottom-three"> </p>
+
+{{#if works}}
+
+    <div class="container">
+        <p class="bottom-three"> </p>
+        {{#each works}}
+            <div class="jumbotron">
+                <!-- <img src="/public/uploads/{{img}}" alt="no image" height="60" width="60">  -->
+                <h3> Name: <i>{{name}}</i>, Title: <i>{{title}}</i></h3> 
+                <h3> Description: <i>{{description}}</i></h3>     
+                <h3> Link: <i>{{link}}</i></h3>    
+                <h3> Attachments: <i>{{img}} / {{file}}</i></h3> 
+            </div>
+   
+        {{/each}}
+     </div>
+ 
+{{else}}
+
+    {{#if user}}
+        <p> Sorry, {{{user.username}}}. There are no portofolios available to preview. </p> 
+    {{else}}
+        <p> Sorry, there are no portofolios available to preview. </p> 
+    {{/if}}
+{{/if}}
