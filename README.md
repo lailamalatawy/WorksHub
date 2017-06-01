@@ -10,14 +10,6 @@
 
 You can find an installation guide [here](https://github.com/abdelrahman-elkady/se-tutorial/blob/master/environment_setup.md). 
 
-## Usage
-1. Clone the repo. 
-2. Run the Apache server.
-3. Run all three SQL files in the following order:
-   * tables.sql
-   * procedures.sql
-   * data.sql
-4. Open your browser on ``` http://localhost/index.php ```. 
 
 ## Usage
 1. Clone the repo. 
