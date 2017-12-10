@@ -19,8 +19,7 @@ You can find an installation guide [here](https://github.com/abdelrahman-elkady/
 
 
 
-## Disclaimer:
-
+## Disclaimer
 + This app is made only for academic purposes.
 
 ## URI
