@@ -2,7 +2,7 @@
  A web platform where students can create portfolios and upload their works for other people to view. Can be regarded as a simplified version of GitHub.
 
 ## Installation
-### Prerequisites
+### Prerequisites:
 + npm 
 + node.js 
 + mongodb 
@@ -20,7 +20,7 @@ You can find an installation guide [here](https://github.com/abdelrahman-elkady/
 
 
 ## Disclaimer
-+ This app is made only for academic purposes.
+This app is made only for academic purposes.
 
 ## URI
 http://34.208.150.24:8083
